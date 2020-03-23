@@ -1,3 +1,9 @@
 [submodule "docker-nodejs-website"]
 	path = docker-nodejs-website
 	url = https://github.com/wanyutang/docker-nodejs-website.git
+[submodule "docker-compose"]
+	path = docker-compose
+	url = https://github.com/wanyutang/docker-compose.git
+[submodule "docker-fun3w"]
+	path = docker-fun3w
+	url = https://github.com/wanyutang/docker-fun3w.git
