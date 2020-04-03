@@ -13,3 +13,11 @@ git submodule update --init --recursive
 git ls-files --stage
 git rm --cached [Project Name]
 ```
+
+# Git Submodule 移除
+
+```bash
+git rm -fr [Project Name]
+git commit -m "Remove submodule" -a
+vi .git/config # 移除 facebook-php-sdk 那兩行
+```
